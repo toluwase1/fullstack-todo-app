@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17934d49-0adb-48cc-9dab-dd69741e409f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/model/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/model/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/css/util.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/JosefinSans/JosefinSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/JosefinSans/JosefinSans-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/JosefinSans/JosefinSans-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/JosefinSans/JosefinSans-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/JosefinSans/JosefinSans-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/JosefinSans/JosefinSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/JosefinSans/JosefinSans-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/JosefinSans/JosefinSans-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/JosefinSans/JosefinSans-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/JosefinSans/JosefinSans-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/JosefinSans/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/iconic/css/material-design-iconic-font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/iconic/css/material-design-iconic-font.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/source-sans-pro/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/source-sans-pro/SourceSansPro-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/source-sans-pro/SourceSansPro-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/source-sans-pro/SourceSansPro-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/source-sans-pro/SourceSansPro-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/source-sans-pro/SourceSansPro-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/source-sans-pro/SourceSansPro-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/source-sans-pro/SourceSansPro-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/source-sans-pro/SourceSansPro-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/source-sans-pro/SourceSansPro-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/source-sans-pro/SourceSansPro-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/source-sans-pro/SourceSansPro-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/ubuntu/UFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/ubuntu/Ubuntu-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/ubuntu/Ubuntu-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/ubuntu/Ubuntu-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/ubuntu/Ubuntu-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/ubuntu/Ubuntu-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/ubuntu/Ubuntu-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/ubuntu/Ubuntu-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/fonts/ubuntu/Ubuntu-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/images/icons/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/images/icons/map-marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/animate/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/animsition/css/animsition.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/animsition/css/animsition.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/animsition/js/animsition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/animsition/js/animsition.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/bootstrap/js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/bootstrap/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/bootstrap/js/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/countdowntime/countdowntime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/css-hamburgers/hamburgers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/css-hamburgers/hamburgers.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/daterangepicker/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/daterangepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/daterangepicker/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/daterangepicker/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/jquery/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/perfect-scrollbar/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/select2/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/static/vendor/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/templates/addTodo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/endpoint/TodosEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/endpoint/TodosEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/endpoint/UsersEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/endpoint/UsersEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/models/Todos.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/models/Todos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/models/TodosRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/models/TodosRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/models/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/repositories/TodosRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/repositories/TodosRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/services/ServiceImpl/TodosServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/services/ServiceImpl/TodosServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/services/TodosService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/services/TodosService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/src/test/java/com/toluwase/appbackend/AppBackendApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/src/test/java/com/toluwase/appbackend/AppBackendApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/endpoint/TodosEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/endpoint/TodosEndpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/endpoint/UsersEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/endpoint/UsersEndpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/models/Todos.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/models/Todos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/models/TodosRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/models/TodosRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/models/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/models/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/repositories/TodosRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/repositories/TodosRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/services/ServiceImpl/TodosServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/services/ServiceImpl/TodosServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/services/TodosService.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/services/TodosService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/target/test-classes/com/toluwase/appbackend/AppBackendApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/target/test-classes/com/toluwase/appbackend/AppBackendApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/AppFrontendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/AppFrontendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/controller/TodosClientCotroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/controller/TodosClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/controller/UserClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/controller/UserClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/model/Todos.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/model/Todos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/model/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/service/TodosService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/service/TodosService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/resources/static/css/profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/resources/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-frontend/target/classes/com/toluwase/appfrontend/AppFrontendApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/target/classes/com/toluwase/appfrontend/AppFrontendApplication.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="task-one" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1utT3XHqwGJH8bpnLrsSnAZJsLb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app-frontend/src/main/resources/templates" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app-frontend/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/app-frontend/src/main/resources/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app-frontend/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/app-frontend/src/main/resources/static/css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AppFrontendApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppBackendApplicationTests.addTodos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.toluwase.appbackend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.toluwase.appbackend" />
+      <option name="MAIN_CLASS_NAME" value="com.toluwase.appbackend.AppBackendApplicationTests" />
+      <option name="METHOD_NAME" value="addTodos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppBackendApplicationTests.getTodosList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.toluwase.appbackend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.toluwase.appbackend" />
+      <option name="MAIN_CLASS_NAME" value="com.toluwase.appbackend.AppBackendApplicationTests" />
+      <option name="METHOD_NAME" value="getTodosList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppBackendApplicationTests.loginByEmailAndPasswordTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.toluwase.appbackend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.toluwase.appbackend" />
+      <option name="MAIN_CLASS_NAME" value="com.toluwase.appbackend.AppBackendApplicationTests" />
+      <option name="METHOD_NAME" value="loginByEmailAndPasswordTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppBackendApplicationTests.loginByUserAndPasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.toluwase.appbackend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.toluwase.appbackend" />
+      <option name="MAIN_CLASS_NAME" value="com.toluwase.appbackend.AppBackendApplicationTests" />
+      <option name="METHOD_NAME" value="loginByUserAndPasswordTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppBackendApplicationTests.signup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.toluwase.appbackend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.toluwase.appbackend" />
+      <option name="MAIN_CLASS_NAME" value="com.toluwase.appbackend.AppBackendApplicationTests" />
+      <option name="METHOD_NAME" value="signup" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.toluwase.appbackend.AppBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppFrontendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-frontend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.toluwase.appfrontend.AppFrontendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppBackendApplicationTests.signup" />
+        <item itemvalue="JUnit.AppBackendApplicationTests.loginByUserAndPasswordTest" />
+        <item itemvalue="JUnit.AppBackendApplicationTests.loginByEmailAndPasswordTest (1)" />
+        <item itemvalue="JUnit.AppBackendApplicationTests.getTodosList" />
+        <item itemvalue="JUnit.AppBackendApplicationTests.addTodos" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17934d49-0adb-48cc-9dab-dd69741e409f" name="Default Changelist" comment="" />
+      <created>1625483691937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625483691937</updated>
+      <workItem from="1625483693627" duration="50521000" />
+      <workItem from="1625623253991" duration="6943000" />
+    </task>
+    <task id="LOCAL-00001" summary="Maven project setup with dependencies.">
+      <created>1625493981634</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625493981635</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Maven project setup with dependencies." />
+    <MESSAGE value="frontend-task-three" />
+    <MESSAGE value="frontend, Rest template commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend, Rest template commit" />
+  </component>
+</project>

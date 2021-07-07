@@ -21,16 +21,16 @@ public class Users extends BaseModel{
     @Column(name = "last_name")
     private String lastName;
 
-    @Column(name = "phone")
+    @Column(name = "phone", unique = true)
     private String phoneNumber;
 
-    @Column(name = "email")
+    @Column(name = "email", unique = true)
     private String email;
 
     @Column(name = "password")
     private String password;
 
-    @Column(name = "username")
+    @Column(name = "username", unique = true)
     private String username;
 
     @OneToMany

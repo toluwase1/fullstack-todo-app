@@ -12,6 +12,5 @@ public class TodosRequest {
     private String description;
     private LocalDateTime startDate;
     private LocalDateTime finishDate;
-    private Priority priority;
-    private Long userId;
+    private Users users;
 }

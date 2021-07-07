@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css}">
+    <title>Add Todos</title>
+
+</head>
+<body>
+<form th:action="@{/todos/add}" th:object="${todo}" method="post" class="login100-form validate-form p-l-55 p-r-55 p-t-178">
+
+    <div class="form-group has-feedback" >
+        <input type="text" class="form-control" placeholder="✍️ Add Title..." th:field="*{taskTitle}"/>
+        <i class="fa fa-plus form-control-feedback add-btn" title="Add item"></i>
+    </div>
+    <div class="form-group has-feedback">
+        <input type="text" class="form-control" placeholder="✍️ Add Description..." th:field="*{description}"/>
+        <i class="fa fa-plus form-control-feedback add-btn" title="Add item"></i>
+    </div>
+    <div class="row">
+        <div class="input-field col s3">
+            <b>Date of Birth:</b> <input type="datetime-local" th:field="*{startDate}" id="birthDay1" required>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="input-field col s3">
+            <b>Date of Birth:</b> <input type="datetime-local" th:field="*{finishDate}" id="birthDay" required>
+        </div>
+    </div>
+
+    <div class="container-login100-form-btn">
+        <button class="login100-form-btn" type="submit">
+            Add Todo
+        </button>
+    </div>
+
+</form>
+</body>
+</html>

@@ -93,10 +93,10 @@ class AppBackendApplicationTests {
     @Test
     public void getTodosList() {
         Todos todos = new Todos();
-        todos.setTask("Write code");
+        todos.setTaskTitle("Write code");
         todos.setDescription("java, java, java");
-        todos.setStartDate(LocalDateTime.now());
-        todos.setFinishDate(LocalDateTime.now());
+//        todos.setStartDate(LocalDateTime.now());
+//        todos.setFinishDate(LocalDateTime.now());
         todos.setId(2L);
         Mockito.when(todosRepository.findAll())
                 .thenReturn((List<Todos>) todos);
@@ -117,19 +117,19 @@ class AppBackendApplicationTests {
 
 
         Todos todos = new Todos();
-        todos.setTask("Write code");
+        todos.setTaskTitle("Write code");
         todos.setDescription("java, java, java");
-        todos.setStartDate(LocalDateTime.now());
-        todos.setFinishDate(LocalDateTime.now());
+//        todos.setStartDate(LocalDateTime.now());
+//        todos.setFinishDate(LocalDateTime.now());
         todos.setId(2L);
 
 
         TodosRequest todosRequest = new TodosRequest();
         todosRequest.setTaskTitle("Write code");
         todosRequest.setDescription("java, java, java");
-        todosRequest.setStartDate(LocalDateTime.now());
-        todosRequest.setFinishDate(LocalDateTime.now());
-        todosRequest.setUserId(2L);
+//        todosRequest.setStartDate(LocalDateTime.now());
+//        todosRequest.setFinishDate(LocalDateTime.now());
+//        todosRequest.setUserId(2L);
 
 
         Mockito.when(todosRepository.save(todos))

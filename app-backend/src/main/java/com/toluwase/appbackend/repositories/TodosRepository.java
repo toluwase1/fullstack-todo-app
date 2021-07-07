@@ -4,6 +4,8 @@ import com.toluwase.appbackend.models.Todos;
 import com.toluwase.appbackend.models.Users;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface TodosRepository extends JpaRepository<Todos, Long> {
+import java.util.List;
 
+public interface TodosRepository extends JpaRepository<Todos, Long> {
+    List<Todos> findAllByUsers(Users users);
 }

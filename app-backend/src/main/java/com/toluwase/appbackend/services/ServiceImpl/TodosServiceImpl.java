@@ -3,6 +3,7 @@ package com.toluwase.appbackend.services.ServiceImpl;
 import com.toluwase.appbackend.exception.ResourceNotFoundException;
 import com.toluwase.appbackend.models.Todos;
 import com.toluwase.appbackend.models.TodosRequest;
+import com.toluwase.appbackend.models.Users;
 import com.toluwase.appbackend.repositories.TodosRepository;
 import com.toluwase.appbackend.repositories.UsersRepository;
 import com.toluwase.appbackend.services.TodosService;
@@ -46,17 +47,22 @@ public class TodosServiceImpl implements TodosService {
                 orElseThrow(()-> new ResourceNotFoundException("Todo with ID" + todosId +" not found"));
     }
 
+    @Override
+    public List<Todos> getTodosByUser (Users users) {
+        return this.todosRepository.findAllByUsers(users);
+    }
+
     //create a todos
     @Override
     public Todos addTodos (TodosRequest todosRequest) throws Exception {
 
         Todos todos = new Todos();
-        todos.setTask(todosRequest.getTaskTitle());
+        todos.setTaskTitle(todosRequest.getTaskTitle());
         //todos.setPriority(todosRequest.getPriority());
         todos.setDescription(todosRequest.getDescription());
         todos.setStartDate(todosRequest.getStartDate());
         todos.setFinishDate(todosRequest.getFinishDate());
-        todos.setUsers(usersRepository.findById(todosRequest.getUserId()).get());
+        todos.setUsers(todosRequest.getUsers());
 
         return todosRepository.save(todos);
     }
@@ -70,7 +76,7 @@ public class TodosServiceImpl implements TodosService {
        // existingTodos.setPriority(todos.getPriority());
         existingTodos.setStartDate(todos.getStartDate());
         existingTodos.setFinishDate(todos.getFinishDate());
-        existingTodos.setTask(todos.getTaskTitle());
+        existingTodos.setTaskTitle(todos.getTaskTitle());
         existingTodos.setUpdatedAt(LocalDateTime.now());
         return this.todosRepository.save(existingTodos);
     }

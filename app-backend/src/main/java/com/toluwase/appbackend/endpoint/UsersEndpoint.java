@@ -27,7 +27,7 @@ public class UsersEndpoint {
 
 
     @PostMapping("/login")
-    public  ResponseEntity<String> login (@RequestBody LoginRequest loginRequest) throws UserPrincipalNotFoundException {
+    public  ResponseEntity<?> login (@RequestBody LoginRequest loginRequest) throws UserPrincipalNotFoundException {
 
         Users users = usersService.loginByUsernameAndEmail(loginRequest.getEmailOrUsername(), loginRequest.getPassword());
 
@@ -35,13 +35,12 @@ public class UsersEndpoint {
             throw new UserPrincipalNotFoundException("User details not correct");
         }
 
-        return new ResponseEntity<>("Successful", HttpStatus.OK);
+        return ResponseEntity.status(HttpStatus.OK).body(users);
     }
 
     //create a user
     @PostMapping("/create")
     public  ResponseEntity<?> signup (@RequestBody UserRequest users){
-        System.err.println("AM here");
         Users user = usersService.signup(users);
         return new ResponseEntity<>("Successful", HttpStatus.OK);
     }
@@ -72,5 +71,11 @@ public class UsersEndpoint {
     public ResponseEntity<String> deleteUser(@PathVariable("id") long userId){
         usersService.deleteUsers(userId);
         return ResponseEntity.status(HttpStatus.OK).body("User with "+ userId +" deleted");
+    }
+
+    @GetMapping("/getUser")
+    public ResponseEntity<?> getUserByName(String name){
+        Users user = usersService.getUserByName(name);
+        return ResponseEntity.status(HttpStatus.OK).body(user);
     }
 }

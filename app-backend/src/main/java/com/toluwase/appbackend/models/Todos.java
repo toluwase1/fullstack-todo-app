@@ -8,12 +8,8 @@ import org.springframework.data.annotation.CreatedDate;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToOne;
 import javax.validation.constraints.Size;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Getter
@@ -21,14 +17,12 @@ import java.time.LocalDateTime;
 @Entity
 public class Todos extends BaseModel{
 
-    @Column(name = "task")
+    @Column(name = "taskTitle")
     @NotNull
-    @Size(min = 5, max = 50)
-    private String task;
+    private String taskTitle;
 
     @Column(name = "description")
     @NotNull
-    @Size(min = 5, max = 250)
     private String description;
 
     @CreatedDate

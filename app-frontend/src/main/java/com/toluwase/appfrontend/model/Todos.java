@@ -9,10 +9,9 @@ import java.time.LocalDateTime;
 @Setter
 public class Todos {
 
-private String taskTitle;
+    private String taskTitle;
     private String description;
-    private LocalDateTime startDate;
-    private LocalDateTime finishDate;
-    private Priority priority;
-    private Long userId;
+    private String startDate;
+    private String finishDate;
+    private Users users;
 }

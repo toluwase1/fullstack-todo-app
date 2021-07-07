@@ -1,18 +1,18 @@
 package com.toluwase.appbackend.models;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
-import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.util.List;
 
 @Getter
 @Setter
 @Entity
+@AllArgsConstructor
 public class Users extends BaseModel{
 
     @Column(name = "first_name")
@@ -35,6 +35,16 @@ public class Users extends BaseModel{
 
     @OneToMany
     private List<Todos>  todos;
+
+    public Users(String email, String password, long id) {
+        super(id);
+        this.email = email;
+        this.password = password;
+    }
+
+    public Users() {
+        super();
+    }
 }
 
 

@@ -55,4 +55,7 @@ public class Todos extends BaseModel{
 
     @ManyToOne
     private Users users;
+
+    public Todos() {
+    }
 }

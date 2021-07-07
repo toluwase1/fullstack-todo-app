@@ -42,7 +42,7 @@ public class UsersEndpoint {
     @PostMapping("/create")
     public  ResponseEntity<?> signup (@RequestBody UserRequest users){
         System.err.println("AM here");
-        usersService.signup(users);
+        Users user = usersService.signup(users);
         return new ResponseEntity<>("Successful", HttpStatus.OK);
     }
 

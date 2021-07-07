@@ -21,4 +21,10 @@ public class AppFrontendApplication {
 }
 
 
+//    @Autowired
+//    private RestTemplate restTemplate;
 
+//    SignUpDto signUpDto = new SignUpDto();
+//
+//    var result = restTemplate.postForObject("http://localhost:8080/api/v1/signup", signUpDto, ResposeDto.class);
+//

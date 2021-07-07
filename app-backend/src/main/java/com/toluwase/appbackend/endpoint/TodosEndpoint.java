@@ -50,30 +50,9 @@ public class TodosEndpoint {
 
     @PostMapping("/add")
     public ResponseEntity<?> addTodos ( @RequestBody TodosRequest todos) throws Exception {
-        System.err.println(LocalDateTime.now());
         todosService.addTodos(todos);
         return ResponseEntity.status(HttpStatus.OK).body(todos);
     }
-
-    @DeleteMapping("/delete/{id}")
-    public ResponseEntity<?> deleteTodos (@PathVariable("id") long todosId) {
-        todosService.deleteTodos(todosId);
-        return ResponseEntity.status(HttpStatus.OK).build();
-    }
-
-    @PutMapping("/{id}")
-    public Todos updateTodos(@Valid @RequestBody TodosRequest todos, @PathVariable("id") long todosId){
-        return todosService.updateTodos(todos, todosId);
-    }
-
-//    @GetMapping("/paginated/{id}")
-//    public ResponseEntity<List<Todos>> getByPagination(@PathVariable("id") int pageNo) {
-//        int pageSize = 5;
-//        Page<Todos> todosPage = todosService.findPaginated(pageNo, pageSize);
-//        List<Todos> videos = todosPage.getContent();
-//        return ResponseEntity.status(HttpStatus.OK).body(videos);
-//    }
-
 
 
 

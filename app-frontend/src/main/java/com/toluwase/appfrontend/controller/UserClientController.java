@@ -63,13 +63,19 @@ public class UserClientController {
         Object userObj = session.getAttribute("user");
         if (userObj == null) return "redirect:/user/login";
         Users users = (Users)userObj;
-        System.out.println(users.getId());
-        System.out.println(users.getFirstName());
+
         model.addAttribute("todos", todosService.todosList());
 
-
-//        System.out.println(ll.get(1));
         return "dashboard";
+    }
+
+    @GetMapping("/profile")
+    public String profile(HttpSession session, Model model){
+        Object userObj = session.getAttribute("user");
+        if (userObj == null) return "redirect:/user/login";
+
+        model.addAttribute("user", (Users)userObj);
+        return "profile";
     }
 
 

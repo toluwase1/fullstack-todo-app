@@ -66,18 +66,6 @@ public class UsersServiceImpl implements UserService {
         return this.usersRepository.findAll();
     }
 
-    @Override
-    public Users updateUserProfile(@RequestBody UserRequest user, @PathVariable("id") long userId) {
-        Users existingUser = getUserById(userId);
-        existingUser.setEmail(user.getEmail());
-        existingUser.setFirstName(user.getFirstName());
-        existingUser.setLastName(user.getLastName());
-        existingUser.setPassword(user.getPassword());
-        existingUser.setPhoneNumber(user.getPhoneNumber());
-        existingUser.setPassword(user.getPassword());
-
-        return this.usersRepository.save(existingUser);
-    }
 
     @Override
     public Users getUserByName(String name) {

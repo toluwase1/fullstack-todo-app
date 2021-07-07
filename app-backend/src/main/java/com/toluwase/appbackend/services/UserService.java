@@ -12,7 +12,6 @@ public interface UserService {
      Users signup (UserRequest userRequest);
      Users getUserById (long id);
      List<Users> getAllUsers ();
-     Users updateUserProfile (UserRequest user, long id);
      Users getUserByName(String name);
      void deleteUsers (long id);
 }

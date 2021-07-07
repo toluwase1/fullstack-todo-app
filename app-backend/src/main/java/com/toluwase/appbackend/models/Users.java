@@ -21,7 +21,7 @@ public class Users extends BaseModel{
     @Column(name = "last_name")
     private String lastName;
 
-    @Column(name = "phone", unique = true)
+    @Column(name = "phoneNumber", unique = true)
     private String phoneNumber;
 
     @Column(name = "email", unique = true)

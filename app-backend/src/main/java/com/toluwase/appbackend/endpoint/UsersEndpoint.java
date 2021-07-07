@@ -58,21 +58,6 @@ public class UsersEndpoint {
     }
 
 
-
-    //update User
-    @PutMapping("/{id}")
-    public  Users updateUser (@RequestBody UserRequest user, @PathVariable("id") long userId){
-        return usersService.updateUserProfile(user, userId);
-
-    }
-
-    //deletes user
-    @DeleteMapping("/{id}")
-    public ResponseEntity<String> deleteUser(@PathVariable("id") long userId){
-        usersService.deleteUsers(userId);
-        return ResponseEntity.status(HttpStatus.OK).body("User with "+ userId +" deleted");
-    }
-
     @GetMapping("/getUser")
     public ResponseEntity<?> getUserByName(String name){
         Users user = usersService.getUserByName(name);

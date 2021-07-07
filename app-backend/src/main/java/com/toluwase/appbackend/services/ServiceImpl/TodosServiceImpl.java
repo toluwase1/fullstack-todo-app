@@ -58,7 +58,6 @@ public class TodosServiceImpl implements TodosService {
 
         Todos todos = new Todos();
         todos.setTaskTitle(todosRequest.getTaskTitle());
-        //todos.setPriority(todosRequest.getPriority());
         todos.setDescription(todosRequest.getDescription());
         todos.setStartDate(todosRequest.getStartDate());
         todos.setFinishDate(todosRequest.getFinishDate());
@@ -67,31 +66,4 @@ public class TodosServiceImpl implements TodosService {
         return todosRepository.save(todos);
     }
 
-
-    //update todos
-    @Override
-    public Todos updateTodos (@RequestBody TodosRequest todos, @PathVariable("id") long todosId){
-        Todos existingTodos = getTodosById(todosId);
-        existingTodos.setDescription(todos.getDescription());
-       // existingTodos.setPriority(todos.getPriority());
-        existingTodos.setStartDate(todos.getStartDate());
-        existingTodos.setFinishDate(todos.getFinishDate());
-        existingTodos.setTaskTitle(todos.getTaskTitle());
-        existingTodos.setUpdatedAt(LocalDateTime.now());
-        return this.todosRepository.save(existingTodos);
-    }
-
-
-    @Override
-    public void deleteTodos( @PathVariable("id") long todosId){
-        var existingTodos = getTodosById(todosId);
-        this.todosRepository.delete(existingTodos);
-    }
-
-
-    @Override
-    public Page<Todos> findPaginated(int pageNumber, int pageSize) {
-        Pageable pageable = PageRequest.of(pageNumber-1, pageSize);
-        return todosRepository.findAll(pageable);
-    }
 }

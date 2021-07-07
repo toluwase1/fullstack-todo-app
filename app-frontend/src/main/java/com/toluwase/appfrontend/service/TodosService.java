@@ -33,7 +33,6 @@ public class TodosService {
 
     public Todos addTodos(Test test) {
         HttpEntity<Test> entity = new HttpEntity<>(test);
-        System.out.println("AM her");
         return restTemplate.exchange("http://localhost:9091/todos/add", HttpMethod.POST, entity, Todos.class).getBody();
     }
 

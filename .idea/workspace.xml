@@ -6,20 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="17934d49-0adb-48cc-9dab-dd69741e409f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/repositories/TodosRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/repositories/TodosRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/services/ServiceImpl/TodosServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/services/ServiceImpl/TodosServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/services/ServiceImpl/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/src/main/java/com/toluwase/appbackend/services/ServiceImpl/UsersServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-backend/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/endpoint/TodosEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/endpoint/TodosEndpoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/repositories/TodosRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/repositories/TodosRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/services/ServiceImpl/TodosServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/services/ServiceImpl/TodosServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/services/ServiceImpl/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/services/ServiceImpl/UsersServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/services/TodosService.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/target/classes/com/toluwase/appbackend/services/TodosService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/controller/TodosClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/controller/TodosClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/resources/templates/addTodo.html" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/templates/addTodo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/resources/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/templates/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/resources/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/model/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/model/TodosRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/service/TodosService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/service/TodosService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625698232303</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="task-three fixed bugs">
+      <created>1625810295128</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625810295128</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +265,7 @@
     <MESSAGE value="frontend-task-three" />
     <MESSAGE value="frontend, Rest template commit" />
     <MESSAGE value="task-three commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="task-three commit" />
+    <MESSAGE value="task-three fixed bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="task-three fixed bugs" />
   </component>
 </project>

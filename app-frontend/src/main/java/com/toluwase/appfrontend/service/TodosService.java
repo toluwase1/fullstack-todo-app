@@ -1,6 +1,6 @@
 package com.toluwase.appfrontend.service;
 
-import com.toluwase.appfrontend.model.Test;
+import com.toluwase.appfrontend.model.TodosRequest;
 import com.toluwase.appfrontend.model.Todos;
 import com.toluwase.appfrontend.model.Users;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,8 +31,8 @@ public class TodosService {
         return restTemplate.exchange("http://localhost:9091/todos/usersTodo", HttpMethod.GET, entity, List.class).getBody();
     }
 
-    public Todos addTodos(Test test) {
-        HttpEntity<Test> entity = new HttpEntity<>(test);
+    public Todos addTodos(TodosRequest todosRequest) {
+        HttpEntity<TodosRequest> entity = new HttpEntity<>(todosRequest);
         return restTemplate.exchange("http://localhost:9091/todos/add", HttpMethod.POST, entity, Todos.class).getBody();
     }
 

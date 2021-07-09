@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @AllArgsConstructor
-public class Test {
+public class TodosRequest {
     private String taskTitle;
     private String description;
     private LocalDateTime startDate;

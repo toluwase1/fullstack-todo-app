@@ -49,7 +49,7 @@ public class TodosServiceImpl implements TodosService {
 
     @Override
     public List<Todos> getTodosByUser (Users users) {
-        return this.todosRepository.findAllByUsers(users);
+        return this.todosRepository.findTodosByUsers(users);
     }
 
     //create a todos

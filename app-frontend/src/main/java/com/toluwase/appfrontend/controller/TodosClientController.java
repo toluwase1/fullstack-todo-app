@@ -46,8 +46,8 @@ public class TodosClientController {
         Object userObj = session.getAttribute("user");
         if (userObj == null) return "redirect:/user/login";
 
-        String[] startTime = todos.getStartDate().split("-|T|:");
-        String[] endTime = todos.getFinishDate().split("-|T|:");
+        String[] startTime = todos.getStartDate().split("-|Time:|:");
+        String[] endTime = todos.getFinishDate().split("-|Time:|:");
 
 
         LocalDateTime start = LocalDateTime.of(Integer.parseInt(startTime[0]), Integer.parseInt(startTime[1]),

@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app-backend/app-backend.iml" filepath="$PROJECT_DIR$/app-backend/app-backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-frontend/app-frontend.iml" filepath="$PROJECT_DIR$/app-frontend/app-frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-frontend/fx-app/fx-app.iml" filepath="$PROJECT_DIR$/app-frontend/fx-app/fx-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-backend/fx-frontend/fx-frontend.iml" filepath="$PROJECT_DIR$/app-backend/fx-frontend/fx-frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-fx/test-fx.iml" filepath="$PROJECT_DIR$/test-fx/test-fx.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-backend/.mvn/wrapper/wrapper (1).iml" filepath="$PROJECT_DIR$/app-backend/.mvn/wrapper/wrapper (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/app-frontend/.mvn/wrapper/wrapper (2).iml" filepath="$PROJECT_DIR$/app-frontend/.mvn/wrapper/wrapper (2).iml" />
     </modules>

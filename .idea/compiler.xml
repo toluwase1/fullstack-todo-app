@@ -2,12 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="fx-app" />
+        <module name="test-fx" />
         <module name="app-backend" />
         <module name="app-frontend" />
+        <module name="fx-frontend" />
       </profile>
       <profile name="Annotation profile for Unknown" enabled="true">
         <sourceOutputDir name="../../target/generated-sources/annotations" />
@@ -20,6 +24,9 @@
     <bytecodeTargetLevel>
       <module name="app-backend" target="11" />
       <module name="app-frontend" target="11" />
+      <module name="fx-app" target="12" />
+      <module name="fx-frontend" target="12" />
+      <module name="test-fx" target="11" />
       <module name="wrapper (1)" target="1.5" />
       <module name="wrapper (2)" target="1.5" />
     </bytecodeTargetLevel>

@@ -5,6 +5,9 @@
       <list>
         <option value="$PROJECT_DIR$/app-frontend/pom.xml" />
         <option value="$PROJECT_DIR$/app-backend/pom.xml" />
+        <option value="$PROJECT_DIR$/app-backend/fx-frontend/pom.xml" />
+        <option value="$PROJECT_DIR$/app-frontend/fx-app/pom.xml" />
+        <option value="$PROJECT_DIR$/test-fx/pom.xml" />
       </list>
     </option>
   </component>

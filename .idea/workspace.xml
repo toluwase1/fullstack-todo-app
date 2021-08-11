@@ -4,11 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17934d49-0adb-48cc-9dab-dd69741e409f" name="Default Changelist" comment="">
+    <list default="true" id="17934d49-0adb-48cc-9dab-dd69741e409f" name="Default Changelist" comment="task-three fixed bugs">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_12_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_mac_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_mac_12_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_12_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_12_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_12_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_mac_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_mac_12_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_12_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_12_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/src/AlertHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/src/main/java/com/example/fxfrontend/AlertHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/src/main/java/com/example/fxfrontend/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/src/main/java/com/example/fxfrontend/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/src/main/java/com/example/fxfrontend/RegistrationFormApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/src/main/java/com/example/fxfrontend/RegistrationFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/src/main/java/com/example/fxfrontend/registration_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/src/main/resources/com/example/fxfrontend/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fx-app/fx-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fx-frontendd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fx/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fx/src/main/java/com/example/testfx/Forms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fx/src/main/java/com/example/testfx/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fx/src/main/java/com/example/testfx/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fx/src/main/java/com/example/testfx/SignUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fx/src/main/java/com/example/testfx/TableView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fx/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fx/src/main/resources/com/example/testfx/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fx/src/main/resources/com/example/testfx/table-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fx/test-fx.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/controller/TodosClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/controller/TodosClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/model/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/model/TodosRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/service/TodosService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/src/main/java/com/toluwase/appfrontend/service/TodosService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/app-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/app-backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-frontend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +72,7 @@
         <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -43,13 +92,28 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Structure" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectId" id="1utT3XHqwGJH8bpnLrsSnAZJsLb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -62,11 +126,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app-frontend/src/main/resources/templates" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app-backend/fx-frontend/src/main/java/com/example/fxfrontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.24461539" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -79,6 +148,9 @@
       <recent name="$PROJECT_DIR$/app-frontend/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/app-frontend/src/main/resources/static/css" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.fxfrontend" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -87,7 +159,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AppFrontendApplication">
+  <component name="RunManager" selected="Application.TableView">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -99,82 +171,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppBackendApplicationTests.addTodos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="app-backend" />
+    <configuration name="Forms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.testfx.Forms" />
+      <module name="test-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.toluwase.appbackend.*" />
+          <option name="PATTERN" value="com.example.testfx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.toluwase.appbackend" />
-      <option name="MAIN_CLASS_NAME" value="com.toluwase.appbackend.AppBackendApplicationTests" />
-      <option name="METHOD_NAME" value="addTodos" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppBackendApplicationTests.getTodosList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="app-backend" />
+    <configuration name="HelloApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.testfx.HelloApplication" />
+      <module name="test-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.toluwase.appbackend.*" />
+          <option name="PATTERN" value="com.example.testfx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.toluwase.appbackend" />
-      <option name="MAIN_CLASS_NAME" value="com.toluwase.appbackend.AppBackendApplicationTests" />
-      <option name="METHOD_NAME" value="getTodosList" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppBackendApplicationTests.loginByEmailAndPasswordTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="app-backend" />
+    <configuration name="RegistrationFormApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.fxfrontend.RegistrationFormApplication" />
+      <module name="fx-frontend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.toluwase.appbackend.*" />
+          <option name="PATTERN" value="com.example.fxfrontend.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.toluwase.appbackend" />
-      <option name="MAIN_CLASS_NAME" value="com.toluwase.appbackend.AppBackendApplicationTests" />
-      <option name="METHOD_NAME" value="loginByEmailAndPasswordTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppBackendApplicationTests.loginByUserAndPasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="app-backend" />
+    <configuration name="SignUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.testfx.SignUp" />
+      <module name="test-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.toluwase.appbackend.*" />
+          <option name="PATTERN" value="com.example.testfx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.toluwase.appbackend" />
-      <option name="MAIN_CLASS_NAME" value="com.toluwase.appbackend.AppBackendApplicationTests" />
-      <option name="METHOD_NAME" value="loginByUserAndPasswordTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppBackendApplicationTests.signup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="app-backend" />
+    <configuration name="TableView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.testfx.TableView" />
+      <module name="test-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.toluwase.appbackend.*" />
+          <option name="PATTERN" value="com.example.testfx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.toluwase.appbackend" />
-      <option name="MAIN_CLASS_NAME" value="com.toluwase.appbackend.AppBackendApplicationTests" />
-      <option name="METHOD_NAME" value="signup" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppBackendApplicationTests.signup" />
-        <item itemvalue="JUnit.AppBackendApplicationTests.loginByUserAndPasswordTest" />
-        <item itemvalue="JUnit.AppBackendApplicationTests.loginByEmailAndPasswordTest (1)" />
-        <item itemvalue="JUnit.AppBackendApplicationTests.getTodosList" />
-        <item itemvalue="JUnit.AppBackendApplicationTests.addTodos" />
+        <item itemvalue="Application.TableView" />
+        <item itemvalue="Application.SignUp" />
+        <item itemvalue="Application.Forms" />
+        <item itemvalue="Application.HelloApplication (1)" />
+        <item itemvalue="Application.RegistrationFormApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +270,11 @@
       <updated>1625483691937</updated>
       <workItem from="1625483693627" duration="50521000" />
       <workItem from="1625623253991" duration="6943000" />
+      <workItem from="1628203035878" duration="798000" />
+      <workItem from="1628203874690" duration="945000" />
+      <workItem from="1628541753317" duration="1414000" />
+      <workItem from="1628558751703" duration="4054000" />
+      <workItem from="1628580905291" duration="7630000" />
     </task>
     <task id="LOCAL-00001" summary="Maven project setup with dependencies.">
       <created>1625493981634</created>
@@ -261,6 +323,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Maven project setup with dependencies." />
     <MESSAGE value="frontend-task-three" />
     <MESSAGE value="frontend, Rest template commit" />

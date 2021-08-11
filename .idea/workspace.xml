@@ -4,60 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17934d49-0adb-48cc-9dab-dd69741e409f" name="Default Changelist" comment="task-three fixed bugs">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_12_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_mac_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_mac_12_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_12_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_12_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_12_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_mac_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_mac_12_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_12_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_12_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/src/AlertHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/src/main/java/com/example/fxfrontend/AlertHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/src/main/java/com/example/fxfrontend/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/src/main/java/com/example/fxfrontend/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/src/main/java/com/example/fxfrontend/RegistrationFormApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/src/main/java/com/example/fxfrontend/RegistrationFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/src/main/java/com/example/fxfrontend/registration_form.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-backend/fx-frontend/src/main/resources/com/example/fxfrontend/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fx-app/fx-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fx-frontendd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-fx/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-fx/src/main/java/com/example/testfx/Forms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-fx/src/main/java/com/example/testfx/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-fx/src/main/java/com/example/testfx/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-fx/src/main/java/com/example/testfx/SignUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-fx/src/main/java/com/example/testfx/TableView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-fx/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-fx/src/main/resources/com/example/testfx/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-fx/src/main/resources/com/example/testfx/table-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-fx/test-fx.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-backend/app-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/app-backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-frontend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-frontend/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="17934d49-0adb-48cc-9dab-dd69741e409f" name="Default Changelist" comment="task-three fixed bugs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,8 +18,8 @@
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -274,7 +221,7 @@
       <workItem from="1628203874690" duration="945000" />
       <workItem from="1628541753317" duration="1414000" />
       <workItem from="1628558751703" duration="4054000" />
-      <workItem from="1628580905291" duration="7630000" />
+      <workItem from="1628580905291" duration="9651000" />
     </task>
     <task id="LOCAL-00001" summary="Maven project setup with dependencies.">
       <created>1625493981634</created>

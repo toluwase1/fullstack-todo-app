@@ -17,7 +17,6 @@ public class TableView extends Application {
         primaryStage.setTitle("Table");
         primaryStage.setScene(new Scene(root, 800, 500));
         primaryStage.show();
-
     };
 
 }

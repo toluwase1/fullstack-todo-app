@@ -79,8 +79,8 @@ public class SignUp extends Application {
         Phone.setPromptText("Phone");
         gridPane.add(Phone, 1,6);
 
-        Button loginButton = new Button("Login");
-        gridPane.add(loginButton, 1,7);
+        Button signUpButton = new Button("Sign Up");
+        gridPane.add(signUpButton, 1,7);
 
         Scene scene = new Scene(gridPane, 500, 500);
         window.setScene(scene);

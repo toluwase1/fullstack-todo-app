@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17934d49-0adb-48cc-9dab-dd69741e409f" name="Default Changelist" comment="task-three fixed bugs" />
+    <list default="true" id="17934d49-0adb-48cc-9dab-dd69741e409f" name="Default Changelist" comment="task-three fixed bugs">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-backend/app-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app-backend/app-backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-fx/target/classes/com/example/testfx/table-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/test-fx/target/classes/com/example/testfx/table-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-fx/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/test-fx/target/classes/module-info.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +77,8 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app-backend/fx-frontend/src/main/java/com/example/fxfrontend" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -106,18 +113,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TableView">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SignUp">
     <configuration name="Forms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.testfx.Forms" />
       <module name="test-fx" />
@@ -183,6 +179,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="app-backend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.toluwase.appbackend.AppBackendApplication" />
@@ -199,8 +206,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TableView" />
         <item itemvalue="Application.SignUp" />
+        <item itemvalue="Application.TableView" />
         <item itemvalue="Application.Forms" />
         <item itemvalue="Application.HelloApplication (1)" />
         <item itemvalue="Application.RegistrationFormApplication" />
@@ -222,6 +229,8 @@
       <workItem from="1628541753317" duration="1414000" />
       <workItem from="1628558751703" duration="4054000" />
       <workItem from="1628580905291" duration="9651000" />
+      <workItem from="1628657871416" duration="415000" />
+      <workItem from="1628658772449" duration="572000" />
     </task>
     <task id="LOCAL-00001" summary="Maven project setup with dependencies.">
       <created>1625493981634</created>
